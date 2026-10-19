@@ -47,6 +47,17 @@ Zod.
   - Demonstrates implementation of UCP specifications for shopping,
     checkout, and order management using a Node.js stack.
 
+### Java
+
+A reference implementation of a UCP Merchant Server using Java, Spring Boot,
+and SQLite.
+
+- **Server**: [Documentation](rest/java/README.md)
+  - Located in `rest/java/`.
+  - Implements the same flower-shop merchant as the Node.js server: discovery,
+    checkout session management, payment processing, order lifecycle, RFC 9421
+    request signatures, and signed order webhooks.
+
 ### A2A (Agent-to-Agent)
 
 > [!WARNING]
